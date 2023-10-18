@@ -66,5 +66,5 @@ examples/text-classification/run_glue.py \
 
 ## Notes and Acknowledgments
 The implementation is based on https://github.com/huggingface/transformers  <br>
-The implementation is based also on https://github.com/microsoft/AdaMix
+The implementation is based also on https://github.com/microsoft/AdaMix  <br>
 We also used some code from: https://github.com/microsoft/LoRA 
