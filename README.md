@@ -44,13 +44,13 @@ examples/text-classification/run_glue.py \
 --warmup_ratio 0.06 \
 --apply_expert_soup \
 --adapter_size 16 \
---num_experts 4 \
---seed 0 \
+--num_experts 2 \
+--seed 1234 \
 --inference_level 3 \
 --weight_decay 0.1 \
 --sharing_up 1 \
 --sharing_down 0 \
---use_consistency_loss 1
+--use_consistency_loss 0
 
 ```
 * `use_consistency_loss`: Two modes. 
