@@ -1,7 +1,7 @@
-# AdaMix (Mixture-of-Adaptations)
+# AdaKron
 
 
-This is the implementation of the paper [AdaMix: Mixture-of-Adaptations for Parameter-efficient Model Tuning](https://arxiv.org/abs/2205.12410). 
+This is the implementation of the paper AdaKron: an Adapter-based Parameter Efficient Model Tuning with Kronecker Product.
 
 
 
