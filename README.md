@@ -1,8 +1,10 @@
 # AdaKron
 
+This is the implementation of the following paper:
 
-This is the implementation of the paper AdaKron: an Adapter-based Parameter Efficient Model Tuning with Kronecker Product.
-
+Marco Braga, Alessandro Raganato, and Gabriella Pasi. 2024.    
+[AdaKron: An Adapter-based Parameter Efficient Model Tuning with Kronecker Product.](https://aclanthology.org/2024.lrec-main.32/)    
+In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), pages 350–357, Torino, Italia. ELRA and ICCL.    
 
 
 ## Steps to reproduce our results
@@ -62,10 +64,33 @@ examples/text-classification/run_glue.py \
   * `0`: No weight sharing
   * `1`: Sharing Project-up layer weights in Adapter
 
+## Citation
 
+Please cite the following paper if you use the data or code in this repo.
+
+```
+@inproceedings{braga-etal-2024-adakron-adapter,
+    title = "{A}da{K}ron: An Adapter-based Parameter Efficient Model Tuning with Kronecker Product",
+    author = "Braga, Marco  and
+      Raganato, Alessandro  and
+      Pasi, Gabriella",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.32",
+    pages = "350--357",
+}
+```
 
 ## Notes and Acknowledgments
 The implementation is based on https://github.com/huggingface/transformers  <br>
 The implementation is also based on https://github.com/microsoft/AdaMix/tree/main <br>
 We also used some code from: https://github.com/microsoft/LoRA 
-# AdaKron
