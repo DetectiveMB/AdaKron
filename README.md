@@ -90,7 +90,7 @@ Please cite the following paper if you use the data or code in this repo.
 }
 ```
 
-## Notes and Acknowledgments
+## Notes
 The implementation is based on https://github.com/huggingface/transformers  <br>
 The implementation is also based on https://github.com/microsoft/AdaMix/tree/main <br>
 We also used some code from: https://github.com/microsoft/LoRA 
