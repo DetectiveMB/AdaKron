@@ -94,4 +94,5 @@ Please cite the following paper if you use the data or code in this repo.
 The implementation is based on the following projects:  <br>
 https://github.com/huggingface/transformers  <br>
 https://github.com/microsoft/AdaMix/tree/main <br>
-https://github.com/microsoft/LoRA 
+https://github.com/microsoft/LoRA <br>
+https://github.com/QingruZhang/AdaLoRA/tree/main
