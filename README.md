@@ -60,9 +60,12 @@ examples/text-classification/run_glue.py \
   * `1`: Use consistency loss
 
 
-* `sharing_up`: There are two modes. (sharing_down is same)
-  * `0`: No weight sharing
-  * `1`: Sharing Project-up layer weights in Adapter
+* `sharing_up`: There are two modes (boolean):
+  * `True`: Experts defined in both down projection layers
+  * `False`: Experts defined only in the weights down projection layer
+ 
+
+* `sharing_down`: Experts output dimension, we use sharing_down=4
 
 ## Citation
 
