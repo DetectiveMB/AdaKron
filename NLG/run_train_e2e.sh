@@ -1,10 +1,8 @@
-. ./venv/bin/activate
-
 seed=110
-n_experts=8
+n_experts=8 # If you want to train MAdaKron, n_experts = 1 for AdaKron
 
 python -m torch.distributed.launch --nproc_per_node=1 src/gpt2_ft.py \
---train_data ./data/e2e/train.jsonl \
+--train_data ./data/data/e2e/train.jsonl \
 --valid_data ./data/e2e/valid.jsonl \
 --train_batch_size 8 \
 --grad_acc 1 \
@@ -32,5 +30,3 @@ python -m torch.distributed.launch --nproc_per_node=1 src/gpt2_ft.py \
 --n_experts $n_experts \
 --share_A 0 \
 --share_B 1
-
-bash run_eval_e2e.sh --seed $seed --n_experts $n_experts
