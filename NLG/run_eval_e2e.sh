@@ -1,31 +1,7 @@
-. ./venv/bin/activate
-sudo apt install default-jre -y
-
 seed=110
 n_experts=8
-vv=lora_adamix
+vv=adakron # or MAdaKron
 
-while [[ $# -gt 0 ]]
-do
-key="$1"
-case $key in
-    --seed)
-    seed=$2
-    shift
-    shift
-    ;;
-    --n_experts)
-    n_experts=$2
-    shift
-    shift
-    ;;
-    --vv)
-    vv=$2
-    shift
-    shift
-    ;;
-esac
-done
 
 python -m torch.distributed.launch --nproc_per_node=16 src/gpt2_beam.py \
     --data ./data/e2e/test.jsonl \
