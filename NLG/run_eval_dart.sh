@@ -1,5 +1,5 @@
 seed=110
-n_experts=8
+n_experts=8 # If you want to train MAdaKron, n_experts = 1 for AdaKron
 vv=adakron # or MAdaKron
 
 python -m torch.distributed.launch --nproc_per_node=16 src/gpt2_beam.py \
