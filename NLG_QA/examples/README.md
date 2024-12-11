@@ -19,11 +19,6 @@ limitations under the License.
 This folder contains several scripts that showcase how to fine-tune a 🤗 Transformers model on a question answering dataset,
 like SQuAD. 
 
-## Previous Readme
-## Trainer-based scripts
-
-The [`run_qa.py`](https://github.com/huggingface/transformers/blob/main/examples/pytorch/question-answering/run_qa.py),
-[`run_qa_beam_search.py`](https://github.com/huggingface/transformers/blob/main/examples/pytorch/question-answering/run_qa_beam_search.py) and [`run_seq2seq_qa.py`](https://github.com/huggingface/transformers/blob/main/examples/pytorch/question-answering/run_seq2seq_qa.py) leverage the 🤗 [Trainer](https://huggingface.co/transformers/main_classes/trainer.html) for fine-tuning.
 
 ### Fine-tuning BERT on SQuAD1.0
 
