@@ -1,6 +1,6 @@
 # Adapting GPT-2 using AdaKron and MAdaKron
 
-This folder contains the implementation of LoRA, Adamix Adapter and Adamix LoRA in GPT-2 using the modiifed Python package `lora` and steps to replicate the results in our recent paper
+This folder contains the implementation of AdaKron and MAdaKron in GPT-2 using the modiifed Python package `lora` and steps to replicate the results in our recent paper
 
 
 
