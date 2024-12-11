@@ -1,3 +1,4 @@
+export seed=110
 python -m torch.distributed.launch gpt2_ft.py \
 --train_data NLG/data/webnlg_challenge_2017/train.jsonl \
 --valid_data NLG/data/webnlg_challenge_2017/train.jsonl \
