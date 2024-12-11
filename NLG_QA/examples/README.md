@@ -19,15 +19,6 @@ limitations under the License.
 This folder contains several scripts that showcase how to fine-tune a 🤗 Transformers model on a question answering dataset,
 like SQuAD. 
 
-## Setup
-```
-pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
-pip install -r examples/summarization/requirements.txt 
-pip install -e . 
-pip install -e loralib/
-export MASTER_PORT=8679
-```
-
 ## Previous Readme
 ## Trainer-based scripts
 
