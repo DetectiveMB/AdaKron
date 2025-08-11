@@ -63,6 +63,11 @@ examples/text-classification/run_glue.py \
 ## Notes
 The implementation is based on the following projects:  <br>
 
+https://github.com/huggingface/transformers  <br>
+https://github.com/microsoft/AdaMix/tree/main <br>
+https://github.com/microsoft/LoRA <br>
+https://github.com/QingruZhang/AdaLoRA/tree/main
+
 ## Detailed Results on GLUE 
 
 | **Model** | **# Params (M)** | **MNLI** | **QNLI** | **SST2** | **QQP** | **MRPC** | **CoLa** | **RTE** | **STS-B** | **Avg.** |
@@ -87,7 +92,4 @@ The implementation is based on the following projects:  <br>
 | Partial MAdaKron<sub>48</sub> | 0.6 | 83.9 | 91.1 | 92.3 | 87.6 | 91.1 | 61.8 | 74.2 | 89.4 | 83.9 |
 
 <sub><span style="color:blue">Main results on the GLUE development set with BERT-base. *Avg.* is the average performance across the eight GLUE datasets. **Bold** marks the best average, and <u>underline</u> marks the second best.</span></sub>
-https://github.com/huggingface/transformers  <br>
-https://github.com/microsoft/AdaMix/tree/main <br>
-https://github.com/microsoft/LoRA <br>
-https://github.com/QingruZhang/AdaLoRA/tree/main
+
