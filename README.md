@@ -75,21 +75,21 @@ https://github.com/QingruZhang/AdaLoRA/tree/main
 | Full Fine-Tuning [Wang2022AdaMixMF] | 110 | 83.2 | 90.0 | 91.6 | 87.4 | 90.9 | 62.1 | 66.4 | 89.8 | 82.7 |
 | UNIPELT [Wang2022AdaMixMF] | 1.4 | 83.9 | 90.5 | 91.5 | 85.5 | 90.2 | 58.6 | 73.7 | 88.9 | 83.5 |
 | Compacter (repr.) | 1.3 | 81.6 | 89.2 | 87.9 | 85.1 | 88.7 | 58.7 | 59.8 | 86.3 | 79.7 |
-| <span style="color:blue">Compacter++ (repr.)</span> | <span style="color:blue">1.3</span> | <span style="color:blue">80.0</span> | <span style="color:blue">89.8</span> | <span style="color:blue">91.6</span> | <span style="color:blue">83.7</span> | <span style="color:blue">89.5</span> | <span style="color:blue">57.8</span> | <span style="color:blue">60.5</span> | <span style="color:blue">86.2</span> | <span style="color:blue">79.9</span> |
-| <span style="color:blue">(IA)<sup>3</sup> (repr.)</span> | <span style="color:blue">1.2</span> | <span style="color:blue">79.4</span> | <span style="color:blue">88.8</span> | <span style="color:blue">92.3</span> | <span style="color:blue">82.7</span> | <span style="color:blue">90.1</span> | <span style="color:blue">59.9</span> | <span style="color:blue">65.4</span> | <span style="color:blue">86.8</span> | <span style="color:blue">80.7</span> |
-| <span style="color:blue">MoLE-Adapter [li2023mixture]</span> | <span style="color:blue">1.2</span> | <span style="color:blue">84.3</span> | <span style="color:blue">93.0</span> | <span style="color:blue">92.7</span> | <span style="color:blue">87.8</span> | <span style="color:blue">90.4</span> | <span style="color:blue">61.5</span> | <span style="color:blue">70.4</span> | <span style="color:blue">88.7</span> | <span style="color:blue">83.6</span> |
-| <span style="color:blue">UNIPELT (AP) [Mao2021UniPELTAU]</span> | <span style="color:blue">1.1</span> | <span style="color:blue">83.4</span> | <span style="color:blue">90.8</span> | <span style="color:blue">91.9</span> | <span style="color:blue">86.7</span> | <span style="color:blue">90.3</span> | <span style="color:blue">61.2</span> | <span style="color:blue">71.8</span> | <span style="color:blue">88.9</span> | <span style="color:blue">83.1</span> |
+| Compacter++ (repr.) | 1.3 | 80.0 | 89.8 | 91.6 | 83.7 | 89.5 | 57.8 | 60.5 | 86.2 | 79.9 |
+| (IA)<sup>3</sup> (repr.) | 1.2 | 79.4 | 88.8 | 92.3 | 82.7 | 90.1 | 59.9 | 65.4 | 86.8 | 80.7 |
+| MoLE-Adapter [li2023mixture] | 1.2 | 84.3 | 93.0 | 92.7 | 87.8 | 90.4 | 61.5 | 70.4 | 88.7 | 83.6 |
+| UNIPELT (AP) [Mao2021UniPELTAU] | 1.1 | 83.4 | 90.8 | 91.9 | 86.7 | 90.3 | 61.2 | 71.8 | 88.9 | 83.1 |
 | AdaMix Adapter [Wang2022AdaMixMF] | 0.9 | 84.7 | 91.5 | 92.4 | 87.6 | 92.4 | 62.9 | 74.7 | 89.9 | **84.5** |
 | Houlsby Adapter [Wang2022AdaMixMF] | 0.9 | 83.1 | 90.6 | 91.9 | 86.8 | 89.9 | 61.5 | 71.8 | 88.6 | 83.0 |
 | LoRA [Wang2022AdaMixMF] | 0.3 | 82.5 | 89.9 | 91.5 | 86.0 | 90.0 | 60.5 | 71.5 | 85.7 | 82.2 |
 | Prefix-tuning [Wang2022AdaMixMF] | 0.2 | 81.2 | 90.4 | 90.9 | 83.3 | 91.3 | 55.4 | 76.9 | 87.2 | 82.1 |
 | BitFit [Wang2022AdaMixMF] | 0.1 | 81.4 | 90.2 | 92.1 | 84.0 | 90.4 | 58.8 | 72.3 | 89.2 | 82.3 |
-| <span style="color:blue">Vera (repr.)</span> | <span style="color:blue">0.04</span> | <span style="color:blue">83.1</span> | <span style="color:blue">90.5</span> | <span style="color:blue">92.3</span> | <span style="color:blue">85.9</span> | <span style="color:blue">89.9</span> | <span style="color:blue">59.0</span> | <span style="color:blue">61.0</span> | <span style="color:blue">86.8</span> | <span style="color:blue">81.1</span> |
-| <span style="color:blue">Hadamard-Adapter [Hadamard_adapter]</span> | <span style="color:blue">0.03</span> | <span style="color:blue">80.4</span> | <span style="color:blue">89.7</span> | <span style="color:blue">92.4</span> | <span style="color:blue">85.9</span> | <span style="color:blue">90.2</span> | <span style="color:blue">58.4</span> | <span style="color:blue">71.9</span> | <span style="color:blue">88.5</span> | <span style="color:blue">82.2</span> |
+| Vera (repr.) | 0.04 | 83.1 | 90.5 | 92.3 | 85.9 | 89.9 | 59.0 | 61.0 | 86.8 | 81.1 |
+| Hadamard-Adapter [Hadamard_adapter] | 0.03 | 80.4 | 89.7 | 92.4 | 85.9 | 90.2 | 58.4 | 71.9 | 88.5 | 82.2 |
 | Pfeiffer Adapter<sub>48</sub> | 0.9 | 83.3 | 91.1 | 92.0 | 87.5 | 90.7 | 60.3 | 67.6 | 89.6 | 82.7 |
 | AdaKron<sub>48</sub> | 0.6 | 83.5 | 91.1 | 92.0 | 87.1 | 90.8 | 61.1 | 73.8 | 89.4 | 83.6 |
 | Full MAdaKron<sub>48</sub> | 0.6 | 83.9 | 91.3 | 92.8 | 87.4 | 91.5 | 62.3 | 76.0 | 89.2 | <u>84.3</u> |
 | Partial MAdaKron<sub>48</sub> | 0.6 | 83.9 | 91.1 | 92.3 | 87.6 | 91.1 | 61.8 | 74.2 | 89.4 | 83.9 |
 
-<sub><span style="color:blue">Main results on the GLUE development set with BERT-base. *Avg.* is the average performance across the eight GLUE datasets. **Bold** marks the best average, and <u>underline</u> marks the second best.</span></sub>
+<sub>Main results on the GLUE development set with BERT-base. *Avg.* is the average performance across the eight GLUE datasets. **Bold** marks the best average, and <u>underline</u> marks the second best.</span></sub>
 
