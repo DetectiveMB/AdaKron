@@ -1,5 +1,11 @@
 # AdaKron and MAdaKron
 
+## Paper links: 
+
+[AdaKron at LREC-COLING 2024](https://aclanthology.org/2024.lrec-main.32/)
+
+[MAdaKron in Knowledge-Based Systems 2025](https://www.sciencedirect.com/science/article/pii/S0950705125021240)
+
 ## Steps to reproduce our results
 ### Create and activate conda env
 ```console
@@ -92,4 +98,30 @@ https://github.com/QingruZhang/AdaLoRA/tree/main
 | Partial MAdaKron<sub>48</sub> | 0.6 | 83.9 | 91.1 | 92.3 | 87.6 | 91.1 | 61.8 | 74.2 | 89.4 | 83.9 |
 
 <sub>Main results on the GLUE development set with BERT-base. *Avg.* is the average performance across the eight GLUE datasets. **Bold** marks the best average, and <u>underline</u> marks the second best.</span></sub>
+
+
+## Cite our works: 
+
+```
+@inproceedings{braga2024adakron,
+  title={AdaKron: An adapter-based parameter efficient model tuning with kronecker product},
+  author={Braga, Marco and Raganato, Alessandro and Pasi, Gabriella},
+  booktitle={Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)},
+  pages={350--357},
+  year={2024}
+}
+```
+
+
+
+```
+@article{braga2025madakron,
+  title={MAdaKron: A mixture-of-AdaKron adapters},
+  author={Braga, Marco and Raganato, Alessandro and Pasi, Gabriella},
+  journal={Knowledge-Based Systems},
+  pages={115086},
+  year={2025},
+  publisher={Elsevier}
+}
+```
 
