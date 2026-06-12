@@ -90,7 +90,7 @@ https://github.com/QingruZhang/AdaLoRA/tree/main
 | AdaKron<sub>48</sub> | 0.6 | 83.5 | 91.1 | 92.0 | 87.1 | 90.8 | 61.1 | 73.8 | 89.4 | 83.6 |
 | MAdaKron<sub>48</sub> | 0.6 | 83.9 | 91.3 | 92.8 | 87.4 | 91.5 | 62.3 | 76.0 | 89.2 | <u>84.3</u> |
 
-<sub>Main results on the GLUE development set with BERT-base. *Avg.* is the average performance across the eight GLUE datasets. **Bold** marks the best average, and <u>underline</u> marks the second best.</span></sub>
+<sub>Main results on the GLUE development set with BERT-base. *Avg.* is the average performance across the eight GLUE datasets.</span></sub>
 
 
 ## Cite our works: 
